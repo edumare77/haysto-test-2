@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+
+    body{
+        overflow-x: hidden;
+    }
+   
+    .bg-primary {
+        --bg-opacity: 1;
+        background-color: #fd651f;
+        background-color: rgba(253,101,31,var(--bg-opacity));
+    }
+    #site-header {
+        transition: all .2s ease;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 40;
+    }
+
+    .content {
+        padding-top: 70px;
+    }
+    .antialiased {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .container-main {
+        width: 100%;
+    }
+
+    
+
+     .z-10 {
+        z-index: 10;
+    }
+
+     
+
+    
+    @media (min-width: 768px) {
+        .container-main {
+            max-width: 1040px;
+        }
+        
+    }
+
+
+}

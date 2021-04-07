@@ -70,10 +70,10 @@
                     <p class="font-medium">Loan to value (%) = (Borrow amount ÷ New property cost) x 100</p>
                     <p>Anything over 95% is considered as unlikely to get a mortgage:</p>
                     <span id="calc_result" class="h2 title-font py-2 mb-6 block border-b-2 border-black w-full font-black"> {{loanToValue}}%</span>
-                    <p class="font-medium">>Income Multiple (Decimal) = (Borrow amount ÷ Annual Income)</p>
+                    <p class="font-medium">Income Multiple (Decimal) = (Borrow amount ÷ Annual Income)</p>
                     <p>Anything over 4.5 is considered as unlikely to get a mortgage:</p>
                     <span id="calc_result" class="h2 title-font py-2 mb-6 block border-b-2 border-black w-full font-black"> {{incomeMultiple}} </span>
-                    <p class="font-medium">>Deposit Level (%) = (100 - Loan to value)</p>
+                    <p class="font-medium">Deposit Level (%) = (100 - Loan to value)</p>
                     <p>Anything under 5% is considered as unlikely to get a mortgage:</p>
                 <span id="calc_result" class="h2 title-font py-2 mb-6 block border-b-2 border-black w-full font-black"> {{depositLevel}}%</span>
 
